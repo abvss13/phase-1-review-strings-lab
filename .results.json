@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 4,
+    "passes": 7,
     "pending": 0,
-    "failures": 6,
-    "start": "2023-06-14T12:27:01.720Z",
-    "end": "2023-06-14T12:27:02.138Z",
-    "duration": 418
+    "failures": 3,
+    "start": "2023-06-14T12:34:07.918Z",
+    "end": "2023-06-14T12:34:08.349Z",
+    "duration": 431
   },
   "tests": [
     {
@@ -39,7 +39,7 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected 's' to equal '!'",
@@ -78,32 +78,23 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:41:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "shortGreeting is not defined"
-      }
+      "err": {}
     },
     {
       "title": "contains the first initial of the name stored in the 'currentUser' variable",
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:48:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "shortGreeting is not defined"
-      }
+      "err": {}
     },
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js shortGreeting ends with an exclamation point",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:53:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "shortGreeting is not defined"
-      }
+      "err": {}
     }
   ],
   "pending": [],
@@ -123,7 +114,7 @@
     {
       "title": "ends with an exclamation point!",
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "message": "expected 's' to equal '!'",
@@ -143,36 +134,6 @@
         "showDiff": false,
         "actual": "WELCOME TO FLATBOOK, A!",
         "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, A!' to contain 'ABASS'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "contains \"Welcome, \"",
-      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:41:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "shortGreeting is not defined"
-      }
-    },
-    {
-      "title": "contains the first initial of the name stored in the 'currentUser' variable",
-      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:48:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "shortGreeting is not defined"
-      }
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: shortGreeting is not defined\n    at Context.<anonymous> (test/indexTest.js:53:14)\n    at processImmediate (node:internal/timers:466:21)",
-        "message": "shortGreeting is not defined"
       }
     }
   ],
@@ -201,6 +162,27 @@
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome, \"",
+      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the first initial of the name stored in the 'currentUser' variable",
+      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js shortGreeting ends with an exclamation point",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
