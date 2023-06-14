@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 7,
+    "passes": 8,
     "pending": 0,
-    "failures": 3,
-    "start": "2023-06-14T12:34:07.918Z",
-    "end": "2023-06-14T12:34:08.349Z",
-    "duration": 431
+    "failures": 2,
+    "start": "2023-06-14T12:38:25.134Z",
+    "end": "2023-06-14T12:38:25.548Z",
+    "duration": 414
   },
   "tests": [
     {
@@ -23,10 +23,10 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'Welcome to flatbookAbass' to contain 'Welcome to Flatbook, '",
+        "message": "expected 'Welcome to FlatbookAbass!' to contain 'Welcome to Flatbook, '",
         "showDiff": false,
-        "actual": "Welcome to flatbookAbass",
-        "stack": "AssertionError: expected 'Welcome to flatbookAbass' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:11:38)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "Welcome to FlatbookAbass!",
+        "stack": "AssertionError: expected 'Welcome to FlatbookAbass!' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:11:38)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
@@ -41,25 +41,19 @@
       "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 's' to equal '!'",
-        "showDiff": true,
-        "actual": "s",
-        "expected": "!",
-        "stack": "AssertionError: expected 's' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:19:44)\n    at processImmediate (node:internal/timers:466:21)"
-      }
+      "err": {}
     },
     {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected 'WELCOME TO FLATBOOK, A!' to contain 'ABASS'",
@@ -78,7 +72,7 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -105,29 +99,16 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'Welcome to flatbookAbass' to contain 'Welcome to Flatbook, '",
+        "message": "expected 'Welcome to FlatbookAbass!' to contain 'Welcome to Flatbook, '",
         "showDiff": false,
-        "actual": "Welcome to flatbookAbass",
-        "stack": "AssertionError: expected 'Welcome to flatbookAbass' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:11:38)\n    at processImmediate (node:internal/timers:466:21)"
-      }
-    },
-    {
-      "title": "ends with an exclamation point!",
-      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 's' to equal '!'",
-        "showDiff": true,
-        "actual": "s",
-        "expected": "!",
-        "stack": "AssertionError: expected 's' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:19:44)\n    at processImmediate (node:internal/timers:466:21)"
+        "actual": "Welcome to FlatbookAbass!",
+        "stack": "AssertionError: expected 'Welcome to FlatbookAbass!' to contain 'Welcome to Flatbook, '\n    at Context.<anonymous> (test/indexTest.js:11:38)\n    at processImmediate (node:internal/timers:466:21)"
       }
     },
     {
       "title": "contains the value of the 'currentUser' variable",
       "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected 'WELCOME TO FLATBOOK, A!' to contain 'ABASS'",
@@ -153,9 +134,16 @@
       "err": {}
     },
     {
+      "title": "ends with an exclamation point!",
+      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "contains \"WELCOME TO FLATBOOK, \"",
       "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -169,7 +157,7 @@
     {
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
